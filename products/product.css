@@ -58,6 +58,16 @@ h2 { margin: 40px 0 16px; font-size: 24px; color: #000; }
   text-decoration: none;
   font-weight: bold;
 }
+.info {
+  margin: 0 auto 24px;
+  border-collapse: collapse;
+  text-align: left;
+  max-width: 640px;
+  width: 100%;
+}
+.info th, .info td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.info th { width: 7em; color: var(--green); white-space: nowrap; }
+.note { color: var(--muted); font-size: 14px; }
 .ask { font-size: 18px; font-weight: bold; margin: 32px 0 8px; }
 .more a { text-decoration: none; }
 
