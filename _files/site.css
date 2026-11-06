@@ -243,6 +243,9 @@ main.page h2 { margin: 44px 0 16px; font-size: 24px; }
 .info th, .info td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .info th { width: 7em; color: var(--leaf); white-space: nowrap; }
 .note { color: var(--muted); font-size: 14px; }
+.name-note { max-width: 760px; margin: 0 auto 28px; padding: 16px 20px; background: var(--cream); border-left: 4px solid var(--leaf); border-radius: 8px; font-size: 15px; }
+.name-note strong { display: block; color: var(--leaf); margin-bottom: 4px; }
+.name-note p { margin: 0; }
 .ask {
   margin: 40px auto 8px;
   padding: 18px 20px;
