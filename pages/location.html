@@ -38,57 +38,68 @@
   <h2>찾아오는 길</h2>
   <p class="lead">네비게이션에 <strong>'부안누에타운'</strong>을 검색하세요.<br>유유누에마을은 누에타운에서 736번 도로를 따라 곰소 방향으로 800미터 거리에 있어요.</p>
   <figure class="map">
-    <svg viewBox="0 0 800 500" role="img" aria-labelledby="map-title" xmlns="http://www.w3.org/2000/svg">
-      <title id="map-title">약도: 서해안고속도로 부안IC나 줄포IC로 나와 국도 30번을 타고 마포삼거리나 마동삼거리에서 지방도 736번으로 들어오면 부안누에타운 옆에 유유누에마을이 있어요.</title>
-      <rect width="800" height="500" fill="#dcebf2"/>
-      <path d="M560 0 H800 V500 H560 L548 448 C470 452 400 446 320 438 C220 428 140 404 98 352 C66 312 70 252 112 218 C160 180 236 168 318 158 C420 146 500 126 560 70 Z" fill="#f4f1e6" stroke="#cfd8c4" stroke-width="2"/>
-      <text x="40" y="60" class="sea">서해</text>
-      <path d="M330 160 L250 40" stroke="#8a9aa3" stroke-width="3" stroke-dasharray="6 6" fill="none"/>
-      <text x="170" y="36" class="place">새만금방조제</text>
-      <text x="420" y="300" class="park">변산반도 국립공원</text>
+    <svg viewBox="110 0 785 790" role="img" aria-labelledby="map-title" xmlns="http://www.w3.org/2000/svg">
+      <title id="map-title">약도: 변산반도를 도는 국도 30번에서 마포삼거리나 마동삼거리로 들어와 736번 도로를 따라가면 부안누에타운 남쪽 800미터에 유유누에마을이 있고, 조금 더 내려가면 체험장이 있어요.</title>
+      <rect x="110" width="785" height="790" fill="#cfe6ef"/>
+      <!-- 땅 -->
+      <path d="M600 0 C585 25 560 60 520 95 C490 120 460 145 435 172 C410 200 385 230 350 258 C320 282 285 305 250 326 C215 342 175 348 145 360 C130 375 145 395 168 408 C188 422 192 442 180 460 C192 468 210 476 212 492 C200 508 172 524 160 548 C155 572 172 592 190 608 C200 628 220 642 248 656 C275 676 296 702 322 722 C352 738 392 746 420 764 C450 776 500 778 540 770 C565 758 590 742 630 736 C670 734 720 726 770 708 C810 700 850 684 895 668 V0 Z" fill="#eef2e2" stroke="#c9d6bd" stroke-width="2"/>
+      <ellipse cx="292" cy="186" rx="14" ry="8" fill="#eef2e2" stroke="#c9d6bd" stroke-width="2"/>
+      <!-- 저수지 -->
+      <path d="M740 95 C770 80 800 110 840 100 C880 92 895 130 895 160 C870 175 850 200 820 190 C790 182 780 150 752 140 C730 130 725 105 740 95 Z" fill="#cfe6ef"/>
+      <ellipse cx="424" cy="378" rx="9" ry="18" fill="#cfe6ef"/>
+      <text x="200" y="110" class="sea">서해</text>
+      <text x="292" y="168" class="place mid">하섬</text>
+      <text x="815" y="150" class="place mid">부안호</text>
+      <text x="640" y="560" class="park">변산반도 국립공원</text>
 
-      <!-- 국도 23번 -->
-      <path d="M640 150 C628 240 616 320 604 408" class="road"/>
-      <!-- 국도 30번: 부안 → 변산 → 격포 → 모항 → 곰소 → 줄포 -->
-      <path d="M720 150 H640 C560 168 470 182 336 198 C280 204 236 208 196 222 C150 238 122 268 120 302 C120 340 156 372 214 390 C280 408 340 412 404 414 C470 416 540 412 604 408 C650 404 690 396 720 386" class="road"/>
-      <!-- 지방도 736번: 마포삼거리 → 누에타운 → 유유누에마을 → 마동삼거리 -->
-      <path d="M336 198 C342 236 352 262 362 280 C374 302 386 336 392 356 C398 380 402 398 404 414" class="road local"/>
-
-      <!-- 서해안고속도로 -->
-      <path d="M720 0 V500" stroke="#a3174a" stroke-width="12" fill="none"/>
-      <text x="748" y="250" class="hw" transform="rotate(90 748 250)">서해안고속도로</text>
+      <!-- 국도 30번: 변산 → 격포 → 모항 → 곰소 -->
+      <path d="M600 0 C598 50 590 100 570 122 C540 134 500 136 475 152 C455 172 440 195 425 225 C415 240 410 252 400 262 C380 280 360 300 340 316 C315 340 285 370 268 400 C255 430 250 465 258 500 C268 525 282 545 285 575 C288 610 296 650 316 680 C335 705 370 720 410 726 C450 732 480 742 510 746 C530 746 540 735 542 715 C544 690 544 665 546 650 C556 668 575 682 600 684 C625 694 640 714 670 722 C700 726 728 712 748 684 C762 676 772 690 788 700 C810 700 832 676 853 652 C866 648 880 655 895 660" class="road"/>
+      <!-- 736번 도로 -->
+      <path d="M410 252 C414 270 420 295 430 322 C436 350 438 375 442 392 C448 410 455 425 462 440 C470 460 480 485 500 512 C510 530 508 550 516 585 C524 615 534 640 546 650" class="road local"/>
+      <path d="M475 152 C495 166 520 168 545 172 C552 182 556 192 572 202 C610 214 650 214 690 216 C720 218 740 230 760 252 C790 270 830 290 895 292" class="road local"/>
 
       <!-- 도로 번호 -->
-      <g class="shield"><rect x="470" y="160" width="44" height="28" rx="14"/><text x="492" y="180">30</text></g>
-      <g class="shield"><rect x="270" y="398" width="44" height="28" rx="14"/><text x="292" y="418">30</text></g>
-      <g class="shield"><rect x="603" y="262" width="44" height="28" rx="14"/><text x="625" y="282">23</text></g>
-      <g class="shield local"><rect x="312" y="232" width="54" height="28" rx="14"/><text x="339" y="252">736</text></g>
+      <g class="shield"><rect x="553" y="108" width="44" height="28" rx="14"/><text x="575" y="128">30</text></g>
+      <g class="shield"><rect x="276" y="340" width="44" height="28" rx="14"/><text x="298" y="360">30</text></g>
+      <g class="shield"><rect x="304" y="682" width="44" height="28" rx="14"/><text x="326" y="702">30</text></g>
+      <g class="shield"><rect x="766" y="702" width="44" height="28" rx="14"/><text x="788" y="722">30</text></g>
+      <g class="shield local"><rect x="440" y="296" width="54" height="28" rx="14"/><text x="467" y="316">736</text></g>
+      <g class="shield local"><rect x="560" y="210" width="54" height="28" rx="14"/><text x="587" y="230">736</text></g>
 
-      <!-- 나들목 -->
-      <circle cx="720" cy="150" r="11" class="ic"/><text x="704" y="184" class="place end">부안IC</text>
-      <circle cx="720" cy="386" r="11" class="ic"/><text x="700" y="372" class="place end">줄포IC</text>
-      <text x="712" y="24" class="place end">인천 · 서울</text>
-      <text x="712" y="490" class="place end">고창 · 광주</text>
+      <!-- 방향 -->
+      <text x="612" y="30" class="place">↑ 부안 · 부안IC</text>
+      <text x="885" y="640" class="place end">곰소 · 줄포IC →</text>
+      <text x="885" y="318" class="place end">중계리 →</text>
 
-      <!-- 마을과 갈림길 -->
-      <circle cx="640" cy="150" r="9" class="town"/><text x="640" y="132" class="town-label">부안</text>
-      <circle cx="604" cy="408" r="7" class="town"/><text x="604" y="438" class="place mid">줄포</text>
-      <circle cx="336" cy="198" r="7" class="cross"/><text x="336" y="186" class="cross-label">마포삼거리</text>
-      <circle cx="404" cy="414" r="7" class="cross"/><text x="404" y="444" class="cross-label">마동삼거리</text>
-      <text x="200" y="208" class="place">변산해수욕장</text>
-      <text x="66" y="300" class="place">격포</text>
-      <text x="200" y="430" class="place">모항</text>
-      <text x="490" y="440" class="place">곰소</text>
+      <!-- 갈림길과 이름 -->
+      <circle cx="410" cy="252" r="7" class="cross"/><text x="376" y="246" class="cross-label">마포삼거리</text>
+      <circle cx="546" cy="650" r="7" class="cross"/><text x="618" y="654" class="cross-label">마동삼거리</text>
+      <text x="584" y="64" class="place">변산해수욕장</text>
+      <text x="350" y="148" class="place mid">고사포해수욕장</text>
+      <text x="200" y="440" class="place">격포</text>
+      <text x="146" y="472" class="place">채석강</text>
+      <text x="150" y="640" class="place">궁항</text>
+      <text x="440" y="768" class="place mid">모항</text>
+      <text x="560" y="770" class="place">변산자연휴양림</text>
+      <text x="282" y="460" class="place">부안영상테마파크</text>
+      <text x="410" y="384" class="place end">유유제</text>
 
-      <circle cx="362" cy="280" r="8" fill="#1f63b0" stroke="#fff" stroke-width="3"/>
-      <text x="378" y="278" class="nue">부안누에타운</text>
+      <circle cx="444" cy="398" r="8" fill="#1f63b0" stroke="#fff" stroke-width="3"/>
+      <text x="458" y="392" class="nue">부안누에타운</text>
 
       <!-- 유유누에마을 -->
-      <circle cx="388" cy="344" r="13" fill="#a3174a" stroke="#fff" stroke-width="4"/>
-      <path d="M402 344 L428 332 V356 Z" fill="#a3174a"/>
-      <rect x="428" y="322" width="176" height="44" rx="6" fill="#a3174a"/>
-      <text x="516" y="351" class="mark">유유누에마을</text>
-      <text x="430" y="386" class="mark-sub">유유농산 · 체험장</text>
+      <circle cx="463" cy="442" r="13" fill="#a3174a" stroke="#fff" stroke-width="4"/>
+      <path d="M477 442 L503 430 V454 Z" fill="#a3174a"/>
+      <rect x="503" y="420" width="246" height="44" rx="6" fill="#a3174a" class="mark-box"/>
+      <text x="589" y="449" class="mark">유유누에마을</text>
+      <path d="M676 430 V454" stroke="#fff" stroke-opacity=".5" stroke-width="1.5"/>
+      <text x="712" y="448" class="mark-sub">유유농산</text>
+
+      <!-- 체험장: 누에타운과 같은 거리만큼 남쪽, 736번 도로 위 -->
+      <circle cx="484" cy="486" r="10" fill="#2f6b2a" stroke="#fff" stroke-width="3"/>
+      <text x="500" y="492" class="exp">유유누에마을 체험장</text>
+      <circle cx="528" cy="509" r="4" fill="#4a4f4a"/>
+      <text x="536" y="514" class="place small">전북특별자치도농업기술원 종자사업소 (변산면)</text>
     </svg>
   </figure>
   <p class="note">약도라서 실제 거리와 모양은 다를 수 있어요. 휴대폰에서는 옆으로 밀어 보세요.</p>
@@ -126,9 +137,13 @@
   </div>
 </footer>
 <script>
-// 휴대폰에서 약도를 가운데(유유누에마을)부터 보여 주기
+// 휴대폰에서 약도를 유유누에마을 표시가 가운데 오게 보여 주기
 var map = document.querySelector(".map");
-if (map) map.scrollLeft = (map.scrollWidth - map.clientWidth) / 2;
+var box = map && map.querySelector(".mark-box");
+if (box) {
+  var m = map.getBoundingClientRect(), b = box.getBoundingClientRect();
+  map.scrollLeft = b.left + b.width / 2 - m.left - map.clientWidth / 2;
+}
 </script>
 </body>
 </html>
